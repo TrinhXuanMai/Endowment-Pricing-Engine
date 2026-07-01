@@ -24,8 +24,8 @@ Vietnamese market.
 ## Files
 | File | Description |
 |------|-------------|
-| `notebook.ipynb` | Python DCF engine + stress testing |
-| `endowment_pricing.xlsx` | Excel model + reserve projection |
+| `Actuarial_Pricing_MaiTrinh.ipynb` | Python DCF engine + stress testing |
+| `Actuarial_Pricing_MaiTrinh.xlsx` | Excel model + reserve projection |
 
 ## Data Source
 CSO 1980 Mortality Table — Bộ Tài chính, 
