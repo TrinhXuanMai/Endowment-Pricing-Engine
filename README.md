@@ -1,32 +1,28 @@
-# Actuarial Pricing & Reserving Engine — Endowment Insurance
+# Actuarial DCF Pricing & Fackler Reserve Engine for 15-Year Endowment Insurance 
 
-## Overview
-A Python + Excel actuarial model for pricing and reserving 
-a 15-year Education Endowment insurance product for the 
-Vietnamese market.
+## Project Overview
+This project simulates an actuarial pricing and reserving engine for a 15-year Education Endowment product tailored for the Vietnam Middle-Income Market. The main objective is to measure the financial impact of the post-2022 Bancassurance crisis (characterized by high upfront agent commissions and massive early lapse rates).
 
-## Methodology
-- **Pricing:** Discounted Cash Flow (DCF) with CSO 1980 
-  mortality table (BTC Circular 156/2007)
-- **Decrement:** Multiple decrement model — mortality + 
-  lapse (25% yr-1 bancassurance) + 80% agent commission
-- **Reserving:** Fackler's Retrospective Method — reserve 
-  converges to exactly 800M VND at maturity
-- **Validation:** Excel calibrated against Python DCF to 
-  eliminate Actuarial Drift
+## Tools & Technologies
+*   **Core Actuarial Logic:** MS Excel (Cash Flow Projections, Fackler's Retrospective Method)
+*   **Automation & Stress Testing:** Python (pandas, matplotlib, seaborn)
+*   **Mortality Table:** CSO 1980 (Vietnam Ministry of Finance - Circular 156/2007)
 
-## Key Findings
-- Upfront 80% commission is primary profitability risk
-- "Liability Release" effect: early surrenders partially 
-  offset acquisition costs in savings products
-- 200bp interest rate drop increases premium by ~18-22%
+## Key Actuarial Methodologies
+1.  **Multiple Decrement Model:** Incorporated dynamic lapse rates alongside standard mortality.
+2.  **Model Calibration:** Built a Python DCF engine to calculate the *Exact Net Annual Premium*, eliminating Actuarial Drift (rounding errors) found in Excel commutation functions.
+3.  **Fackler's Reserve:** Successfully converged the prospective reserve to exactly 800,000,000 VND at maturity (Year 15).
 
-## Files
-| File | Description |
-|------|-------------|
-| `Actuarial_Pricing_MaiTrinh.ipynb` | Python DCF engine + stress testing |
-| `Actuarial_Pricing_MaiTrinh.xlsx` | Excel model + reserve projection |
+## Stress Testing & Market Insights
+I automated a scenario analysis (Interest Rate × Lapse Rate) and uncovered a critical pricing insight:
+> **The "Liability Release" Effect:** In heavily savings-oriented products (like Endowments), early surrenders mathematically offset the high initial acquisition costs (80% Year-1 Commission). 
 
-## Data Source
-CSO 1980 Mortality Table — Bộ Tài chính, 
-Thông tư 156/2007/TT-BTC
+### Visualizations:
+*Reserve Run-off Curve ensuring 800M maturity target:*
+![Reserve Runoff](Reserve_Runoff.png)
+
+*Premium impact of Bancassurance Lapse Crisis:*
+![Lapse Stress Test](Lapse_StressTest.png)
+
+---
+*Created by Trinh Xuan Mai as a personal academic project.*
