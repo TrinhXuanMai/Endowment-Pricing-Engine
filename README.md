@@ -26,3 +26,33 @@ I automated a scenario analysis (Interest Rate × Lapse Rate) and uncovered a cr
 
 ---
 *Created by Trinh Xuan Mai as a personal academic project.*
+## Excel Model Screenshots
+
+**Sheet 3 — Prospective Reserve Projection (Fackler's Method)**
+
+![Reserve Projection](reserve_projection_excel.png)
+
+The reserve table converges exactly to **800,000,000 VND** at Year 15 (100.0% of Sum Assured), validating full pricing accuracy. Reserve grows from 4.6% of benefit at Year 1 to 90.7% at Year 14 before full convergence.
+
+---
+
+**Sheet 4 — Stress Testing: Interest Rate × Bancassurance Lapse**
+
+![Stress Testing](stress_testing_excel.png)
+
+| Scenario | Interest Rate | Lapse Yr1 | Gross Premium | Business Impact |
+|---|---|---|---|---|
+| **Base Case** | 5.0% | 0% | 39,200,560 VND | Stable. Profit margin sustainable. |
+| Banca Crisis | 5.0% | 25% | 39,313,590 VND | +0.3% only — Liability Release hedges commission loss. |
+| Adverse | 4.0% | 25% | 41,671,770 VND | +6.3% — Profitability highly sensitive to lapse. |
+| **Worst Case** | 3.0% | 25% | 44,212,590 VND | **+12.8% surge — Product unviable without commission redesign.** |
+
+---
+
+## 🔑 Key Business Finding
+
+> ✅ The product remains **commercially viable at 5% yield and 25% Year-1 lapse rate** — the "Liability Release" effect mathematically offsets the heavy 80% upfront agent commission.
+>
+> ⚠️ However, commission restructuring is **critical** if interest rates fall below 4% — at 3% yield, gross premium surges **+12.8%**, making the product commercially unviable without redesigning the commission structure.
+>
+> 📌 A 200bps interest rate drop (5% → 3%) forces an ~18% increase in Pure Premium — highlighting extreme sensitivity to yield compression in long-term savings products.
