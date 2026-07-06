@@ -49,10 +49,10 @@ The reserve table converges exactly to **800,000,000 VND** at Year 15 (100.0% of
 
 ---
 
-## 🔑 Key Business Finding
+## Key Business Finding
 
-> ✅ The product remains **commercially viable at 5% yield and 25% Year-1 lapse rate** — the "Liability Release" effect mathematically offsets the heavy 80% upfront agent commission.
+> The product remains **commercially viable at 5% yield and 25% Year-1 lapse rate** — the "Liability Release" effect mathematically offsets the heavy 80% upfront agent commission.
 >
-> ⚠️ However, commission restructuring is **critical** if interest rates fall below 4% — at 3% yield, gross premium surges **+12.8%**, making the product commercially unviable without redesigning the commission structure.
+> However, commission restructuring is **critical** if interest rates fall below 4% — at 3% yield, gross premium surges **+12.8%**, making the product commercially unviable without redesigning the commission structure.
 >
-> 📌 A 200bps interest rate drop (5% → 3%) forces an ~18% increase in Pure Premium — highlighting extreme sensitivity to yield compression in long-term savings products.
+> A 200bps interest rate drop (5% → 3%) forces an ~18% increase in Pure Premium — highlighting extreme sensitivity to yield compression in long-term savings products.
