@@ -57,4 +57,5 @@ The reserve table converges exactly to **800,000,000 VND** at Year 15 (100.0% of
 > A 200bps interest rate drop (5% → 3%) forces an ~18% increase in Pure Premium — highlighting extreme sensitivity to yield compression in long-term savings products.
 >
 > Product Design Recommendation: Year-1 agent commission must be restructured below 80% if yield falls under 4% — critical for bancassurance channel viability.
+
 *Created by Trinh Xuan Mai as a personal academic project.*
