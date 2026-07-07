@@ -25,7 +25,6 @@ I automated a scenario analysis (Interest Rate × Lapse Rate) and uncovered a cr
 ![Lapse Stress Test](Lapse_StressTest.png)
 
 ---
-*Created by Trinh Xuan Mai as a personal academic project.*
 ## Excel Model Screenshots
 
 **Sheet 3 — Prospective Reserve Projection (Fackler's Method)**
@@ -57,17 +56,5 @@ The reserve table converges exactly to **800,000,000 VND** at Year 15 (100.0% of
 >
 > A 200bps interest rate drop (5% → 3%) forces an ~18% increase in Pure Premium — highlighting extreme sensitivity to yield compression in long-term savings products.
 >
-## Product Implications
-
-**Stress Testing Results (4 Combined Scenarios: Interest Rate × Lapse)**
-
-| Scenario | Interest Rate | Lapse Yr1 | Gross Premium | Business Impact |
-|---|---|---|---|---|
-| Base Case | 5.0% | 0% | 39,200,560 | Stable profit margin |
-| Banca Crisis | 5.0% | 25% | 39,313,590 | Negligible impact (+0.3%) |
-| Adverse | 4.0% | 25% | 41,671,770 | Premium increases 6.3% |
-| Worst Case | 3.0% | 25% | 44,212,590 | Premium surge +12.8% |
-
-**Key Recommendations for Product Design:**
-- A 200bps rate drop (5%→3%) forces a 12.8% premium surge — Year-1 agent commission must be capped below 80% if yield falls under 4% to maintain commercial viability.
-- The "Liability Release" effect: under bancassurance crisis (25% Yr-1 lapse), early surrenders mathematically offset the 80% upfront commission burden by releasing the 800M VND maturity obligation — an apparent risk reframed as a distribution channel design insight.
+> Product Design Recommendation: Year-1 agent commission must be restructured below 80% if yield falls under 4% — critical for bancassurance channel viability.
+*Created by Trinh Xuan Mai as a personal academic project.*
