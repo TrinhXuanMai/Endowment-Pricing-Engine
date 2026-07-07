@@ -23,9 +23,10 @@ I automated a scenario analysis (Interest Rate × Lapse Rate) and uncovered a cr
 
 *Premium impact of Bancassurance Lapse Crisis:*
 ![Lapse Stress Test](Lapse_StressTest.png)
+* Note on chart: The red percentages (-1.6%, -3.3%) indicate the premium reduction caused by the "Liability Release" effect (25% lapse vs 0% lapse) at that specific interest rate. Conversely, the table below tracks the total premium surge compared to the absolute Base Case (5% Yield).*
 
 ---
-## Excel Model Screenshots
+## Excel Model & Scenario Analysis
 
 **Sheet 3 — Prospective Reserve Projection (Fackler's Method)**
 
@@ -35,9 +36,7 @@ The reserve table converges exactly to **800,000,000 VND** at Year 15 (100.0% of
 
 ---
 
-**Sheet 4 — Stress Testing: Interest Rate × Bancassurance Lapse**
-
-![Stress Testing](stress_testing_excel.png)
+**Stress Testing: Interest Rate × Bancassurance Lapse**
 
 | Scenario | Interest Rate | Lapse Yr1 | Gross Premium | Business Impact |
 |---|---|---|---|---|
@@ -48,14 +47,13 @@ The reserve table converges exactly to **800,000,000 VND** at Year 15 (100.0% of
 
 ---
 
-## Key Business Finding
+## Key Business Findings
 
-> The product remains **commercially viable at 5% yield and 25% Year-1 lapse rate** — the "Liability Release" effect mathematically offsets the heavy 80% upfront agent commission.
->
-> However, commission restructuring is **critical** if interest rates fall below 4% — at 3% yield, gross premium surges **+12.8%**, making the product commercially unviable without redesigning the commission structure.
->
-> A 200bps interest rate drop (5% → 3%) forces an ~18% increase in Pure Premium — highlighting extreme sensitivity to yield compression in long-term savings products.
->
-> Product Design Recommendation: Year-1 agent commission must be restructured below 80% if yield falls under 4% — critical for bancassurance channel viability.
+*   **Commercial Viability:** The product remains viable at a 5% yield and 25% Year-1 lapse rate. The "Liability Release" effect mathematically offsets the heavy 80% upfront agent commission.
+*   **Yield Sensitivity:** A 200bps interest rate drop (5% → 3%) forces an ~18% increase in Pure Premium, highlighting extreme sensitivity to yield compression in long-term savings products.
+*   **Profitability Threat:** At a 3% yield, gross premium surges by **+12.8%**, making the product commercially unviable under current commission structures.
+*   **Product Design Recommendation:** Commission restructuring is **critical**. Year-1 agent commission must be capped below 80% if yields fall under 4% to maintain bancassurance channel viability.
+
+<br>
 
 *Created by Trinh Xuan Mai as a personal academic project.*
